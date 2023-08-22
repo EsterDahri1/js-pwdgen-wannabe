@@ -25,4 +25,4 @@ const currentYearAbvr = Number(23);
 
 //Risultato
 console.log(userName + userSurname + userFavColour + currentYearAbvr);
-document.writeln(userName + userSurname + userFavColour + currentYearAbvr)
+document.writeln(userName + userSurname + userFavColour + currentYearAbvr);
