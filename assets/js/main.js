@@ -6,6 +6,11 @@
   - Add string number 23
   - Write in console the answer
   - Write result on page
+
+  BONUS 
+  - Add key 
+  - Sum key to number 23
+  - Generate new password
 */
 
 //Chiedo nome dell'user
@@ -20,9 +25,17 @@ console.log(userSurname);
 let userFavColour = prompt ('Insert your favourite colour');
 console.log(userFavColour);
 
+//Aggiungo chiave
+const secretKey = prompt ('Insert your lucky number');
+console.log(secretKey);
+
 //Aggiungo numero 23
-const currentYearAbvr = Number(23);
+const currentYearAbvr = 23;
+
+//Somma numero e chiave
+let finalCode = secretKey + 23;
+console.log('finalCode');
 
 //Risultato
-console.log(userName + userSurname + userFavColour + currentYearAbvr);
-document.writeln(userName + userSurname + userFavColour + currentYearAbvr);
+console.log(userName + userSurname + userFavColour + finalCode);
+document.writeln(userName + userSurname + userFavColour + finalCode);
