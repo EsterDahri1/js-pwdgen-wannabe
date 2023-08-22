@@ -25,16 +25,15 @@ console.log(userSurname);
 let userFavColour = prompt ('Insert your favourite colour');
 console.log(userFavColour);
 
-//Aggiungo chiave
-const secretKey = prompt ('Insert your lucky number');
-console.log(secretKey);
-
 //Aggiungo numero 23
 const currentYearAbvr = 23;
 
+//Aggiungo chiave
+const secretKey = 765
+
 //Somma numero e chiave
-let finalCode = secretKey + 23;
-console.log('finalCode');
+let finalCode = 23 + 765
+console.log(finalCode);
 
 //Risultato
 console.log(userName + userSurname + userFavColour + finalCode);
